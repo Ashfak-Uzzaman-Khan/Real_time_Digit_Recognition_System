@@ -78,6 +78,9 @@ def update_frame():
             x, y, w, h = bbox
             cv2.rectangle(frame, (x,y), (x+w, y+h), (0,255,0), 2)
 
+    fps = recognizer.calculate_fps()
+    status.config(text=f"Status: Camera Running  |  FPS: {fps}", fg="lightgreen")
+
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     img = Image.fromarray(rgb).resize((640, 480))
     imgtk = ImageTk.PhotoImage(img)
