@@ -1,5 +1,4 @@
-# Real-time-Digit-Recognition-System
-A real-time digit recognition system that uses a CNN model trained on MNIST and uses OpenCV to detect handwritten digits from webcam input.
+
 <h1 align="center">🔢 Real-time Digit Recognition System</h1>
 
 <p align="center">
@@ -11,7 +10,7 @@ A real-time digit recognition system that uses a CNN model trained on MNIST and 
   <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/Tkinter-GUI-orange?style=for-the-badge&logo=python&logoColor=white" />
 </p>
----
+
 
 ## 📌 Project Overview
 
