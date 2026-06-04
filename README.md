@@ -16,8 +16,7 @@
 
 This project is a **real-time handwritten digit recognition system** built using a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset**. It captures live webcam input, applies a series of image preprocessing techniques via **OpenCV**, and predicts the handwritten digit (0–9) along with a confidence score.
 
-The system comes with **two interface options**:
-- 🖥️ **Tkinter Desktop App**   A dark-themed native GUI that shows the live camera feed, detected digit, and confidence score.
+The system comes with a interface option which is a Tkinter Desktop App : A dark-themed native GUI that shows the live camera feed, detected digit, and confidence score.
 
 ---
 
