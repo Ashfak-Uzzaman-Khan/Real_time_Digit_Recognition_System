@@ -1,6 +1,6 @@
 
 <h1 align="center"> Real-time Digit Recognition System</h1>
-
+                                                                    
 <p align="center">
  A real-time digit recognition system that uses a CNN model trained on MNIST and uses OpenCV to detect handwritten digits from webcam input. 
 </p>
